@@ -1,6 +1,6 @@
 # some information about you
 name: "Monvoisin Kévin"
-nickname: "Kévin"
+nickname: "Kévin 🇫🇷"
 # greeting message before your name. it will default to "Hi! I am" if not provided
 greeting: "Hi, i'm "
 image: "images/author/kevin.png"
@@ -12,6 +12,7 @@ contactInfo:
 
 # some summary about what you do
 summary:
+  - I am french 🇫🇷
   - I love cybersecurity
   - I am a developper
   - I love automation

@@ -13,26 +13,26 @@ experiences:
 - company:
     name: Air France Industries
     url: "https://www.afiklmem.com/fr"
-    location: Roissy Charles De Gaule, Val d'oise (95)
-    overview: Air France Industries est une filiale du groupe Air France KLM. Elle comporte plus de 7.000 employés situés sur plusieurs continent. Cette branche est axée sur la réparation des pièces d'avions, la vente et la maintenance.
+    location: Roissy Charles De Gaule, Val d'oise (95), France 🇫🇷
+    overview: Air France Industries is a subsidiary of the Air France KLM group. It has more than 7,000 employees located on several continents. This company is focused on aircraft parts repair, sales and maintenance.
     # company overview
   positions:
-  - designation: Apprenti Ingénieur Décisionnel
-    start: Décembre 2020
+  - designation: Decision-making engineer apprentice
+    start: December 2020
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Optimisation de requêtes SQL
-    - Développement d'application Office 365 (Access, PowerApps) et maintenance
-    - Développement d'application Web (stack Springboot + Angular)
-    - Analyse et rédaction de cahiers des charges au sein de divers projets d'évolution
+    - Optimization of SQL queries
+    - Office 365 application development (Access, PowerApps) and maintenance
+    - Web application development (Springboot + Angular)
+    - Analysis and writing of specifications within various development projects
 
 
 - company:
     name: Auchan
     url: "https://auchan.fr"
-    location: Beauvais, Oise (60)
+    location: Beauvais, Oise (60), France 🇫🇷
     overview: Auchan est une enseigne de grande distribution. En 2019, il s'agit de la quatrième enseigne de grande distribution mondiale, et deuxième en France.
   positions:
   - designation: Employé Polyvalent (étudiant)
@@ -45,7 +45,7 @@ experiences:
 - company:
     name: Parc St Paul
     url: "https://www.parcsaintpaul.fr/"
-    location: St Paul, Oise (60)
+    location: St Paul, Oise (60), France 🇫🇷
     overview: Le parc Saint-Paul est un parc d'attractions situé à Saint-Paul, dans l'Oise, à quelques kilomètres de Beauvais et à 70 km de Paris.
   positions:
   - designation: Opération attraction
