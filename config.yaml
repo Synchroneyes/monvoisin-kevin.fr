@@ -13,6 +13,13 @@ languages:
   en:
     languageName: English
     weight: 2
+
+# At least HTML and JSON are required for the main HTML content and
+# client-side JavaScript search
+outputs:
+  home:
+  - HTML
+  - JSON
   
 # Control TOC depth
 markup:
