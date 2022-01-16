@@ -10,7 +10,7 @@ steps:
     environment:
       <<: *hugo_env
     commands:
-      - hugo --baseURL $BASE_URL
+      - hugo
 
   - name: publish-website
     image: plugins/gh-pages
