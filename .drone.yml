@@ -21,7 +21,7 @@ steps:
       ssh_key:
         from_secret: ssh_key
       pages_directory: public/
-      branch: main
+      branch: master
 
   - name: display_urls
     image: lowess/drone-tabulate
