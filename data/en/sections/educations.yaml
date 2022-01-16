@@ -15,7 +15,7 @@ degrees:
   icon: fa-graduation-cap
   timeframe: 2020-2022
   institution:
-    name: Université de Picardie Jules Verne
+    name: University of Picardy Jules Verne
     url: "https://www.u-picardie.fr/"
   takenCourses: #(optional)
     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
@@ -39,7 +39,7 @@ degrees:
   icon: fa-university
   timeframe: 2017-2020
   institution:
-    name: Université de Picardie Jules Verne
+    name: University of Picardy Jules Verne
     url: "https://www.u-picardie.fr/"
   takenCourses: #(optional)
     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
