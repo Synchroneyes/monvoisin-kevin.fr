@@ -1,4 +1,6 @@
 name: Deploiement sur github
+BASE_URL: https://monvoisin-kevin.fr/
+
 
 # run when a commit is pushed to "source" branch
 on:
@@ -25,7 +27,7 @@ jobs:
 
     # build website
     - name: Build
-      run: hugo 
+      run: hugo --baseURL $BASE_URL 
 
     # push the generated content into the `main` (former `master`) branch.
     - name: Deploy
