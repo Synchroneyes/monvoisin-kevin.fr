@@ -25,7 +25,7 @@ projects:
   logo: /images/sections/projects/minecraft.png
   role: Auteur
   timeline: "Octobre 2019 - Present"
-  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  url: "https://mc.monvoisin-kevin.fr"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: Plugin écrit en Java, pour le jeu-vidéo Minecraft. Le plugin propose un système de mise à jour automatique, de téléchargement de carte de jeu, et du mode de jeu complet. Il propose également une API.
   tags: ["personnel", "java", "php", "symfony"]
 
