@@ -1,0 +1,81 @@
+# section information
+section:
+  name: Éducation
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+
+- name: Master Ingénierie des systèmes et des réseaux informatique
+  icon: fa-graduation-cap
+  timeframe: 2020-2022
+  institution:
+    name: Université de Picardie Jules Verne
+    url: "https://www.u-picardie.fr/"
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: false
+    collapseAfter: 3
+    courses:
+    - name: Architectures sécurisées (Red team & Blue Team)
+    - name: Administration système
+    - name: Administration base de données et BigData
+    - name: Cours d'anglais
+    - name: Cryptographie
+    - name: Cloud (AWS)
+    - name: Gestion de projet
+    - name: Infrastructure des réseaux locaux et d'internet
+    - name: Internet Of Things (IOT)
+    - name: Réseau et télécommunication
+    - name: Sécurisation des réseaux (OpenSSL, OpenVPN)
+    - name: Virtualisation
+
+- name: Licence Informatique
+  icon: fa-university
+  timeframe: 2017-2020
+  institution:
+    name: Université de Picardie Jules Verne
+    url: "https://www.u-picardie.fr/"
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: false
+    collapseAfter: 3
+    courses:
+    - name: Algèbre linéaire
+    - name: Algorithme des Graphes
+    - name: Cours d'anglais
+    - name: Développement Web
+    - name: Introduction à la cryptographie et au calcul distribué
+    - name: Mathématiques et statistiques
+    - name: Programmation Orienté Objet
+    - name: Programmation système
+    - name: Système d'exploitation (Apprentissage Linux)
+
+- name: DUT Gestion des entreprises et des administrations
+  icon: fa-university
+  timeframe: 2016-2017
+  institution:
+    name: Université de Picardie Jules Verne
+    url: "https://www.u-picardie.fr/"
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: false
+    collapseAfter: 3
+    courses:
+    - name: Cours de fiscalité
+    - name: Cours de comptabilité
+    - name: Cours de psychologie du travail
+    - name: Cours de mathématiques
+    - name: Cours de droit du travail et des affaires
+    - name: Cours d'anglais
+
+- name: Baccalauréat Scientifique (Science de l'ingénieur)
+  icon: fa-school
+  timeframe: 2016
+  institution:
+    name: Lycée Paul Langevin
