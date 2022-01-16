@@ -1,7 +1,7 @@
-baseURL: https://monvoisin-kevin.fr
+baseURL: https://synchroneyes.github.io/fr/
 languageCode: en-US
 title: Monvoisin Kévin
-defaultContentLanguage: en
+defaultContentLanguage: fr
 theme: "toha"
 
 # Manage languages
