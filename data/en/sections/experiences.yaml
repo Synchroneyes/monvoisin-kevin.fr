@@ -1,0 +1,58 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: Air France Industries
+    url: "https://www.afiklmem.com/fr"
+    location: Roissy Charles De Gaule, Val d'oise (95)
+    overview: Air France Industries est une filiale du groupe Air France KLM. Elle comporte plus de 7.000 employés situés sur plusieurs continent. Cette branche est axée sur la réparation des pièces d'avions, la vente et la maintenance.
+    # company overview
+  positions:
+  - designation: Apprenti Ingénieur Décisionnel
+    start: Décembre 2020
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Optimisation de requêtes SQL
+    - Développement d'application Office 365 (Access, PowerApps) et maintenance
+    - Développement d'application Web (stack Springboot + Angular)
+    - Analyse et rédaction de cahiers des charges au sein de divers projets d'évolution
+
+
+- company:
+    name: Auchan
+    url: "https://auchan.fr"
+    location: Beauvais, Oise (60)
+    overview: Auchan est une enseigne de grande distribution. En 2019, il s'agit de la quatrième enseigne de grande distribution mondiale, et deuxième en France.
+  positions:
+  - designation: Employé Polyvalent (étudiant)
+    start: Janvier 2018
+    end: Décembre 2020
+    responsibilities:
+    - Hôte de caisse
+    - Employé en rayon boucherie et volaille Libre Service. Mise en rayon, rotations et facing.
+
+- company:
+    name: Parc St Paul
+    url: "https://www.parcsaintpaul.fr/"
+    location: St Paul, Oise (60)
+    overview: Le parc Saint-Paul est un parc d'attractions situé à Saint-Paul, dans l'Oise, à quelques kilomètres de Beauvais et à 70 km de Paris.
+  positions:
+  - designation: Opération attraction
+    start: Juillet 2017
+    end: Septembre 2017
+    responsibilities:
+    - Veiller au bon fonctionnement de l'attraction
+    - Accueil des visiteurs
+    - Appliquer les principes de sécurité dans l'attraction
+    - Nettoyage de l'attraction

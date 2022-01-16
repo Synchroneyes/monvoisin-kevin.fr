@@ -1,0 +1,55 @@
+# section information
+section:
+  name: Projets
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: false
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: Tous
+  filter: "all"
+- name: Professionnel
+  filter: "professionnel"
+- name: Universitaire
+  filter: "universitaire"
+- name: Personnel
+  filter: "personnel"
+
+# your projects
+projects:
+- name: Mineral Contest
+  logo: /images/sections/projects/minecraft.png
+  role: Auteur
+  timeline: "Octobre 2019 - Actuellement"
+  url: "https://mc.monvoisin-kevin.fr"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Plugin écrit en Java, pour le jeu-vidéo Minecraft. Le plugin propose un système de mise à jour automatique, de téléchargement de carte de jeu, et du mode de jeu complet. Il propose également une API.
+  tags: ["personnel", "java", "php", "symfony"]
+
+- name: Serveurs Personnels
+  logo: /images/sections/projects/server.png
+  role: Auteur
+  timeline: "Septembre 2020 - Actuellement"
+  #repo: https://github.com/tensorflow/tensorflow
+  #url: ""
+  summary: Mise en place de serveurs à titre personnel. Ces serveurs proposent différents outils accessible depuis partout, ou restreint à réseau local accessible depuis une connexion VPN. On peut compter un serveur samba, un serveur multimédia (plex), un serveur web et différentes application docker, en respectant des principes de sécurités.
+  tags: ["personnel", "securité", "serveurs"]
+
+- name: Application Air France
+  logo: /images/sections/projects/afklm.png
+  role: Developpeur 
+  timeline: "Janvier 2020 - Actuellement"
+  #repo: https://github.com/hossainemruz/toha
+  summary: Migration d'un outil reposant sous Microsoft Access vers un format web utilisant la stack Springboot et Angular. Rédaction de documentation fonctionnelle et d'analyse. Développement du site en binôme avec un second alternant.
+  tags: ["professionnel","java","springboot", "angular", "alternance"]
+
+- name: Simulation TousAntiCovid
+  logo: /images/sections/projects/upjv.png
+  role: Auteur 
+  timeline: "Mars 2021 - Avril 2021"
+  repo: https://github.com/Synchroneyes/simulation-anti-covid-bash
+  summary: Développement d'un prototype illustrant le fonctionnement de TousAntiCovid, reposant sur une architecture centralisée. Respect de l'anonymat et utilisation de pseudonymes. Tout le contenu est chiffré et ne peut-être déchiffrer par autre personne que le serveur centrale.
+  tags: ["universitaire", "bash", "cryptographie"]
