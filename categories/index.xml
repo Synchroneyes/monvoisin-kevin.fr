@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Monvoisin Kévin</title>
-    <link>https://synchroneyes.github.io/fr/categories/</link>
+    <link>https://monvoisin-kevin.fr/categories/</link>
     <description>Recent content in Categories on Monvoisin Kévin</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language><atom:link href="https://synchroneyes.github.io/fr/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-US</language><atom:link href="https://monvoisin-kevin.fr/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
