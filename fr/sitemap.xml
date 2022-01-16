@@ -3,44 +3,44 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://monvoisin-kevin.fr/categories/</loc>
+    <loc>https://monvoisin-kevin.fr/fr/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://monvoisin-kevin.fr/en/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
                 href="https://monvoisin-kevin.fr/categories/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://monvoisin-kevin.fr/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://monvoisin-kevin.fr/en/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
+                href="https://monvoisin-kevin.fr/fr/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://monvoisin-kevin.fr/fr/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
                 href="https://monvoisin-kevin.fr/"
                 />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://monvoisin-kevin.fr/fr/"
+                />
   </url>
   
   <url>
-    <loc>https://monvoisin-kevin.fr/tags/</loc>
+    <loc>https://monvoisin-kevin.fr/fr/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://monvoisin-kevin.fr/en/tags/"
+                href="https://monvoisin-kevin.fr/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://monvoisin-kevin.fr/tags/"
+                href="https://monvoisin-kevin.fr/fr/tags/"
                 />
   </url>
   
