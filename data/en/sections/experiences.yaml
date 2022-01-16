@@ -13,7 +13,7 @@ experiences:
 - company:
     name: Air France Industries
     url: "https://www.afiklmem.com/fr"
-    location: "Roissy Charles De Gaule, Val d'oise (95), France :fr:"
+    location: "Roissy Charles De Gaule, Val d'oise (95), France "
     overview: Air France Industries is a subsidiary of the Air France KLM group. It has more than 7,000 employees located on several continents. This company is focused on aircraft parts repair, sales and maintenance.
     # company overview
   positions:
@@ -32,7 +32,7 @@ experiences:
 - company:
     name: Auchan
     url: "https://auchan.fr"
-    location: "Beauvais, Oise (60), France :fr:"
+    location: "Beauvais, Oise (60), France "
     overview: Auchan est une enseigne de grande distribution. En 2019, il s'agit de la quatrième enseigne de grande distribution mondiale, et deuxième en France.
   positions:
   - designation: Employé Polyvalent (étudiant)
@@ -45,7 +45,7 @@ experiences:
 - company:
     name: Parc St Paul
     url: "https://www.parcsaintpaul.fr/"
-    location: "St Paul, Oise (60), France :fr:"
+    location: "St Paul, Oise (60), France "
     overview: Le parc Saint-Paul est un parc d'attractions situé à Saint-Paul, dans l'Oise, à quelques kilomètres de Beauvais et à 70 km de Paris.
   positions:
   - designation: Opération attraction
