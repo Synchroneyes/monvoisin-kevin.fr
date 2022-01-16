@@ -12,46 +12,46 @@ section:
 # Give a summary of you each skill in the summary section.
 skills:
 - name: Docker
-  logo: /images/sections/skills/docker.svg
+  # # # # # logo: /images/sections/skills/docker.svg
   summary: "La plupart des outils utilisés/programmes crées sont dockerisé. Docker offre une souplesse et une rapidité de déploiement."
   url: "https://docker.com"
 
 - name: Drone
-  logo: /images/sections/skills/drone-logo.png
+  # # # # # logo: /images/sections/skills/drone-logo.png
   summary: "Chacun de mes projets utilise drone comme solution de compilation, de test et de déploiement. Ce site est d'ailleurs automatiquement déployé grâce à Drone."
   url: "https://www.drone.io/"
 
 - name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
+  # # # # # logo: /images/sections/skills/cloud.png
   summary: "Je possède des compétences avec la solution de cloud d'Amazon, Amazon Web Service. J'ai des notions en Autoscaling, Load Balancing. J'apprends également à utiliser Amazon S3."
 
 - name: SQL
-  logo: /images/sections/skills/sql.png
+  # # # # # logo: /images/sections/skills/sql.png
   summary: "Je suis à l'aise avec la gestion de base de données MySQL, PostgreSQL. Je suis également capable d'écrire des requêtes optimisées."
   url: "https://www.office.com/"
 
 - name: Prometheus
-  logo: /images/sections/skills/prometheus.png
+  # # # # logo: /images/sections/skills/prometheus.png
   summary: "Je suis capable de mettre en place et de configurer Prometheus. Actuellement en apprentissage de maitrise de l'outil."
   url: "https://prometheus.io/"
 
 - name: Linux
-  logo: /images/sections/skills/linux.png
+  # # # # logo: /images/sections/skills/linux.png
   summary: "Utilisation en tant que système d'exploitation sur mes serveurs, et sur mon ordinateur personnel. Je suis capable d'écrire des scripts bash et suis à l'aise avec la majorité des commandes de bases."
 
 - name: Git
-  logo: /images/sections/skills/git.png
+  # # # # logo: /images/sections/skills/git.png
   summary: "Je possède de l'expérience avec le développement basé sur Git. J'utilise principalement GitHub. J'ai déjà travaillé en utilisant GitLab dans le passé."
   url: "https://git-scm.com/"
 
 - name: Java
-  logo: /images/sections/skills/java.png
+  # # # # logo: /images/sections/skills/java.png
   summary: "Je pratique le Java depuis mes premières années universitaire. Je suis l'auteur d'un plugin sur le jeu Minecraft, appelé Mineral Contest. Je suis également à l'aise avec des frameworks tel que Spring boot."
 
 - name: C
-  logo: /images/sections/skills/c.png
+  # # # # logo: /images/sections/skills/c.png
   summary: "Je connais le principe et les basiques de la programmation en C. Principalement utilisé durant mes années universitaires."
 
 - name: Langages Web
-  logo: /images/sections/skills/web.png
+  # # # # logo: /images/sections/skills/web.png
   summary: "Je suis à l'aise en PHP, en Javascript (natif, Angular et React), ainsi qu'en HTML. Je possède des bases en CSS."
