@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Notes</title>
+    <title>Tags</title>
     <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -21,21 +21,20 @@
 
 
 
-<meta property="og:title" content="Notes" />
+<meta property="og:title" content="Tags" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://monvoisin-kevin.fr/notes/" />
+<meta property="og:url" content="https://monvoisin-kevin.fr/en/tags/" />
 
 
 
     
     
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
-  />
-  <link rel="stylesheet" href="/css/layouts/notes.css">
-  <link rel="stylesheet" href="/css/navigators/sidebar.css">
+    <link rel="stylesheet" href="/css/layouts/list.css">
+    <link rel="stylesheet" href="/css/navigators/sidebar.css">
+    
+    <link rel="stylesheet" href="/css/style.css"/>
+
 
 
     
@@ -64,7 +63,7 @@
       <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <a class="navbar-brand" href="/">
+    <a class="navbar-brand" href="/en">
       Monvoisin Kévin</a>
     <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
       <span class="navbar-toggler-icon"></span>
@@ -72,6 +71,29 @@
 
     <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
       <ul class="navbar-nav ml-auto">
+      
+        
+
+  
+
+
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="languageSelector" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      
+      <span class="flag-icon flag-icon-gb"></span>
+      English
+    </a>
+    <div class="dropdown-menu" aria-labelledby="languageSelector">
+      
+        <a class="dropdown-item nav-link languages-item" href="/fr/tags">
+          
+          <span class="flag-icon flag-icon-fr"></span>
+          Français
+        </a>
+      
+    </div>
+</li>
+
       
       </ul>
     </div>
@@ -93,14 +115,21 @@
   <section class="sidebar-section" id="sidebar-section">
     <div class="sidebar-holder">
       <div class="sidebar" id="sidebar">
-        <form class="mx-auto" method="get" action="/search">
+        <form class="mx-auto" method="get" action="/en/search">
           <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
         </form>
         <div class="sidebar-tree">
           <ul class="tree" id="tree">
-            <li id="list-heading"><a href="/notes" data-filter="all">Remarques</a></li>
-            <div class="subtree">
-                
+            <li id="list-heading"><a href="/en/tags" data-filter="all">Tags</a></li>
+            <div class="subtree taxonomy-terms">
+              
+              
+
+
+
+  
+  
+
 
             </div>
           </ul>
@@ -114,72 +143,13 @@
       
 <section class="content-section" id="content-section">
   <div class="content container-fluid" id="content">
-    <div class="container-fluid note-card-holder" id="note-card-holder">
+    <div class="container-fluid post-card-holder" id="post-card-holder">
       
       
-        
-        
-        
-      
-        
-        
-        
-      
-        
-        
-        
-      
-        
-        
-        
-      
-        
-        
-        
-      
-        
-        
-        
-      
-        
-        
-        
-      
-        
-        
-        
-      
-        
-        
-        
-      
-        
-        
-        
       
     </div>
     <div class="paginator">
       
-    <ul class="pagination pagination-default">
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="First" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;&laquo;</span></a>
-      </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Previous" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;</span></a>
-      </li>
-      <li class="page-item active">
-        <a aria-current="page" aria-label="Page 1" class="page-link" role="button">1</a>
-      </li>
-      <li class="page-item">
-        <a href="/notes/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
-      </li>
-      <li class="page-item">
-        <a href="/notes/page/2/" aria-label="Next" class="page-link" role="button"><span aria-hidden="true">&raquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/notes/page/2/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
-      </li>
-    </ul>
     </div>
   </div>
 </section>
@@ -258,7 +228,7 @@
                   
                 
                 <li class="nav-item">
-                  <a class="smooth-scroll" href="https://monvoisin-kevin.fr/#about">Qui suis-je</a>
+                  <a class="smooth-scroll" href="https://monvoisin-kevin.fr/en/#about">About me</a>
                 </li>
               
               
@@ -267,7 +237,7 @@
                   
                 
                 <li class="nav-item">
-                  <a class="smooth-scroll" href="https://monvoisin-kevin.fr/#skills">Compétences</a>
+                  <a class="smooth-scroll" href="https://monvoisin-kevin.fr/en/#skills">Compétences</a>
                 </li>
               
               
@@ -276,7 +246,7 @@
                   
                 
                 <li class="nav-item">
-                  <a class="smooth-scroll" href="https://monvoisin-kevin.fr/#experiences">Experiences</a>
+                  <a class="smooth-scroll" href="https://monvoisin-kevin.fr/en/#experiences">Experiences</a>
                 </li>
               
               
@@ -285,7 +255,7 @@
                   
                 
                 <li class="nav-item">
-                  <a class="smooth-scroll" href="https://monvoisin-kevin.fr/#education">Éducation</a>
+                  <a class="smooth-scroll" href="https://monvoisin-kevin.fr/en/#education">Éducation</a>
                 </li>
               
               
@@ -295,7 +265,7 @@
         
         
         <div class="col-md-4 col-sm-12">
-          <h5>Contactez moi :</h5>
+          <h5>Contact me:</h5>
           <ul>
             
               
@@ -336,7 +306,7 @@
         </div>
         <div class="col-md-4 text-center">© 2021 Copyright.</div>
         <div class="col-md-4 text-right">
-          <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">Alimenté par
+          <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">Powered by
           <img
             src="/images/hugo-logo.svg"
             alt="Hugo Logo"
@@ -364,13 +334,7 @@
 
     
     
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
-  <script src="/js/imagesloaded.pkgd.min.js"></script>
-  <script src="/js/note.js"></script>
-  <script>
-    hljs.initHighlightingOnLoad();
-  </script>
-  
+    <script src="/js/list.js"></script>
 
   </body>
 </html>
