@@ -1,8 +1,8 @@
 # some information about you
 name: "Monvoisin Kévin"
-nickname: "Kévin Monvoisin"
+nickname: "Kévin"
 # greeting message before your name. it will default to "Hi! I am" if not provided
-greeting: ""
+greeting: "Hi, i'm "
 image: "images/author/kevin.png"
 # give your some contact information. they will be used in the footer
 contactInfo:
@@ -12,8 +12,8 @@ contactInfo:
 
 # some summary about what you do
 summary:
-  - J'adore la cybersécurité
-  - Je suis un développeur
-  - j'adore l'automatisation
-  - J'aime les serveurs
-  - J'aime le réseau
+  - I love cybersecurity
+  - I am a developper
+  - I love automation
+  - I love systems
+  - I love networking

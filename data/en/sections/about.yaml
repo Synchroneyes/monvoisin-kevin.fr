@@ -1,5 +1,5 @@
 section:
-  name: Qui suis-je # Title of section (default: "")
+  name: About me # Title of section (default: "")
   id: about # url id/slug of section *Required*
   enable: true # Boolean to determine if this section is enabled (default: false)
   weight: 1 # Order to display section in (default: alphabetical followed by weight)
@@ -7,7 +7,7 @@ section:
 
 
 # your designation
-designation: Apprenti ingénieur décisionnel
+designation: Decision-making engineer apprentice
 # your company information
 company:
   name: Air France Industries
@@ -15,7 +15,7 @@ company:
 
 
 # a summary about you
-summary: "Je suis en deuxième année d'alternance au sein d'Air France Industries, filiale du groupe Air France KLM. je suis passionné par la cybersécurité, l'automatisation de tâches, les systèmes et réseaux informatique."
+summary: "Currently in my last year of apprenticeship in Air France Industries, subsidiary company of Air France KLM. Passionate about cybersecurity, automation, system and network engineering"
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -41,11 +41,11 @@ badges:
   color: blue
 
 - type: soft-skill-indicator
-  name: Travail d'équipe
+  name: Teamwork
   percentage: 90
   color: yellow
 
 - type: soft-skill-indicator
-  name: Persévérance
+  name: Perseverance
   percentage: 100
   color: orange
