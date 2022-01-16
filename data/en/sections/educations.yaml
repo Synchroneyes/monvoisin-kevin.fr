@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Éducation
+  name: Education
   id: education
   template: sections/education.html # Use "sections/education-alt.html for alternate template.
   enable: true
@@ -11,7 +11,7 @@ section:
 
 degrees:
 
-- name: Master Ingénierie des systèmes et des réseaux informatique
+- name: Master degree of systems and network engineering
   icon: fa-graduation-cap
   timeframe: 2020-2022
   institution:
@@ -22,20 +22,20 @@ degrees:
     showGrades: false
     collapseAfter: 3
     courses:
-    - name: Architectures sécurisées (Red team & Blue Team)
-    - name: Administration système
-    - name: Administration base de données et BigData
-    - name: Cours d'anglais
-    - name: Cryptographie
+    - name: Secured architectures (Red team & Blue Team)
+    - name: System admin.
+    - name: BigData, Database admin.
+    - name: English course
+    - name: Cryptography
     - name: Cloud (AWS)
-    - name: Gestion de projet
-    - name: Infrastructure des réseaux locaux et d'internet
+    - name: Project management
+    - name: LAN and internet infrastructure
     - name: Internet Of Things (IOT)
-    - name: Réseau et télécommunication
-    - name: Sécurisation des réseaux (OpenSSL, OpenVPN)
-    - name: Virtualisation
+    - name: Network and telecommunication
+    - name: Securing Networks (OpenSSL, OpenVPN)
+    - name: Virtualization
 
-- name: Licence Informatique
+- name: Computer Science degree
   icon: fa-university
   timeframe: 2017-2020
   institution:
@@ -46,17 +46,17 @@ degrees:
     showGrades: false
     collapseAfter: 3
     courses:
-    - name: Algèbre linéaire
-    - name: Algorithme des Graphes
-    - name: Cours d'anglais
-    - name: Développement Web
-    - name: Introduction à la cryptographie et au calcul distribué
-    - name: Mathématiques et statistiques
-    - name: Programmation Orienté Objet
-    - name: Programmation système
-    - name: Système d'exploitation (Apprentissage Linux)
+    - name: Linear algebra
+    - name: Graph based Algorithms
+    - name: English course
+    - name: Web development
+    - name: Introduction to Cryptography and Distributed Computing
+    - name: Mathematics and statistics
+    - name: Oriented Object Programming (OOP)
+    - name: System based programming
+    - name: Operating System (Linux learning)
 
-- name: DUT Gestion des entreprises et des administrations
+- name: First year, companies management
   icon: fa-university
   timeframe: 2016-2017
   institution:
@@ -67,15 +67,16 @@ degrees:
     showGrades: false
     collapseAfter: 3
     courses:
-    - name: Cours de fiscalité
-    - name: Cours de comptabilité
-    - name: Cours de psychologie du travail
-    - name: Cours de mathématiques
-    - name: Cours de droit du travail et des affaires
-    - name: Cours d'anglais
+    - name: Tax course
+    - name: Accounting course
+    - name: Psychology course
+    - name: Math course
+    - name: Law course
+    - name: English course
 
-- name: Baccalauréat Scientifique (Science de l'ingénieur)
+- name: Scientific Baccalaureate (Engineering Science)
   icon: fa-school
   timeframe: 2016
   institution:
     name: Lycée Paul Langevin
+    url: https://paul-langevin-beauvais.ac-amiens.fr/
