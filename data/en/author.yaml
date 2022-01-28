@@ -12,9 +12,8 @@ contactInfo:
 
 # some summary about what you do
 summary:
-  - "I am french"
-  - I love cybersecurity
-  - I am a developper
-  - I love automation
-  - I love systems
-  - I love networking
+  - ":shield: Cybersecurity enthusiast"
+  - ":computer: Fullstack developer"
+  - ":arrows_counterclockwise: Automation amateur"
+  - ":floppy_disk: Sysadmin"
+  - ":globe_with_meridians: Network architect"
