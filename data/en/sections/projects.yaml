@@ -29,6 +29,14 @@ projects:
   summary: Plugin écrit en Java, pour le jeu-vidéo Minecraft. Le plugin propose un système de mise à jour automatique, de téléchargement de carte de jeu, et du mode de jeu complet. Il propose également une API.
   tags: ["personnel", "java", "php", "symfony"]
 
+- name: Mineral Contest Web
+  logo: /images/sections/projects/dev.png
+  role: Auteur
+  timeline: "Janvier 2022 - Actuellement"
+  url: "https://github.com/Synchroneyes?tab=repositories&q=mineralcontest&type=public&language=&sort="  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Développement d'un application complètement séparée. On sépare le front-end du back-end. On utilisera Drone comme outil de déploiement, Sonar comme outil d'analyse de qualité de code. On utilise Github pour l'hébergement du front-end. Amazon S3 pour le stockage des fichiers. On utilise Angular pour le front-end, et Spring Boot pour le backend.
+  tags: ["personnel", "java", "springboot", "angular", "rest", "drone", "sonar", "aws"]
+
 - name: Serveurs Personnels
   logo: /images/sections/projects/server.png
   role: Auteur
