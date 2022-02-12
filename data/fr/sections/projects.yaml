@@ -44,7 +44,7 @@ projects:
   #repo: https://github.com/tensorflow/tensorflow
   #url: ""
   summary: Mise en place de serveurs à titre personnel. Ces serveurs proposent différents outils accessible depuis partout, ou restreint à réseau local accessible depuis une connexion VPN. On peut compter un serveur samba, un serveur multimédia (plex), un serveur web et différentes application docker, en respectant des principes de sécurités.
-  tags: ["personnel", "securité", "serveurs"]
+  tags: ["personnel", "securité", "serveurs", "linux"]
 
 - name: Application Air France
   logo: /images/sections/projects/afklm.png
@@ -60,5 +60,13 @@ projects:
   timeline: "Mars 2021 - Avril 2021"
   repo: https://github.com/Synchroneyes/simulation-anti-covid-bash
   summary: Développement d'un prototype illustrant le fonctionnement de TousAntiCovid, reposant sur une architecture centralisée. Respect de l'anonymat et utilisation de pseudonymes. Tout le contenu est chiffré et ne peut-être déchiffrer par autre personne que le serveur centrale.
-  tags: ["universitaire", "bash", "cryptographie"]
+  tags: ["universitaire", "bash", "cryptographie", "linux"]
+
+- name: Cluster énergie intermittente 
+  logo: /images/sections/projects/upjv.png
+  role: Auteur 
+  timeline: "Septembre 2021 - Mars 2022"
+  #repo: https://github.com/Synchroneyes/simulation-anti-covid-bash
+  summary: Mise en place d'un cluster alimenté par l'énergie solaire, mise en place d'un scheduler (SLURM) et gestion de la priorité des jobs en fonction de l'électricité disponible. Le cluster était composé d'un master (serveur NTP, serveur d'authentification, NFS) et de plusieurs noeuds clients. Utilisation de raspberry pi.
+  tags: ["universitaire", "slurm", "team", "green-it", "linux", "electronique"]
 
