@@ -34,6 +34,10 @@ degrees:
     - name: Réseau et télécommunication
     - name: Sécurisation des réseaux (OpenSSL, OpenVPN)
     - name: Virtualisation
+    - name: Haute disponibilité
+    - name: Infrastructure du calcul distribué
+    - name: Convergence et terminaux mobiles
+    - name: Marchés professionels et bilan de compétences
 
 - name: Licence Informatique
   icon: fa-university

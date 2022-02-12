@@ -34,6 +34,10 @@ degrees:
     - name: Network and telecommunication
     - name: Securing Networks (OpenSSL, OpenVPN)
     - name: Virtualization
+    - name: High availability
+    - name: Distributed computing infrastuctures
+    - name: Convergence and mobile devices
+    - name: Professional markets and skills assessment
 
 - name: Computer Science degree
   icon: fa-university
