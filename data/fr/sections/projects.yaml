@@ -43,7 +43,7 @@ projects:
   timeline: "Septembre 2020 - Actuellement"
   #repo: https://github.com/tensorflow/tensorflow
   #url: ""
-  summary: Mise en place de serveurs à titre personnel. Ces serveurs proposent différents outils accessible depuis partout, ou restreint à réseau local accessible depuis une connexion VPN. On peut compter un serveur samba, un serveur multimédia (plex), un serveur web et différentes application docker, en respectant des principes de sécurités.
+  summary: Mise en place de serveurs à titre personnel. Ces serveurs proposent différents outils accessible depuis partout, ou restreint à réseau local accessible depuis une connexion VPN. On peut compter un serveur samba, un serveur multimédia (plex), un serveur web et différentes application docker, en respectant des principes de sécurité.
   tags: ["personnel", "securité", "serveurs", "linux"]
 
 - name: Application Air France
