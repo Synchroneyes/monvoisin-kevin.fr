@@ -69,3 +69,10 @@ projects:
   #repo: https://github.com/Synchroneyes/simulation-anti-covid-bash
   summary: Mise en place d'un cluster alimenté par l'énergie solaire, mise en place d'un scheduler (SLURM) et gestion de la priorité des jobs en fonction de l'électricité disponible. Le cluster était composé d'un master (serveur NTP, serveur d'authentification, NFS) et de plusieurs noeuds clients. Utilisation de raspberry pi.
   tags: ["universitaire", "slurm", "team", "green-it", "linux", "electronique"]
+
+- name: Infrastructure sur AWS
+    logo: /images/sections/projects/aws.png
+    role: Auteur
+    timeline: "Septembre 2021 - Mars 2022"
+    summary: Mise en place d'une infrastructure sur le cloud d'Amazon Web Service. Prise en main du cloud et de l'outil Terraform. Notre infrastructure était composée d'un serveur web. Cette infrastructure est scalable et contient des règles d'autoscaling afin de la rendre la plus disponible possible.
+    tags: ["universitaire", "cloud", "aws", "terraform"]
