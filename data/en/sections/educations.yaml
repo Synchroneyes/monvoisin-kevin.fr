@@ -10,77 +10,76 @@ section:
   # hideTitle: true
 
 degrees:
+  - name: Master degree of systems and network engineering
+    icon: fa-graduation-cap
+    timeframe: 2020-2022
+    institution:
+      name: University of Picardy Jules Verne
+      url: "https://www.u-picardie.fr/"
+    takenCourses: #(optional)
+      # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+      showGrades: false
+      collapseAfter: 3
+      courses:
+        - name: Secured architectures (Red team & Blue Team)
+        - name: System admin.
+        - name: BigData, Database admin.
+        - name: English course
+        - name: Cryptography
+        - name: Cloud (AWS)
+        - name: Project management
+        - name: LAN and internet infrastructure
+        - name: Internet Of Things (IOT)
+        - name: Network and telecommunication
+        - name: Securing Networks (OpenSSL, OpenVPN)
+        - name: Virtualization
+        - name: High availability
+        - name: Distributed computing infrastuctures
+        - name: Convergence and mobile devices
+        - name: Professional markets and skills assessment
 
-- name: Master degree of systems and network engineering
-  icon: fa-graduation-cap
-  timeframe: 2020-2022
-  institution:
-    name: University of Picardy Jules Verne
-    url: "https://www.u-picardie.fr/"
-  takenCourses: #(optional)
-    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
-    showGrades: false
-    collapseAfter: 3
-    courses:
-    - name: Secured architectures (Red team & Blue Team)
-    - name: System admin.
-    - name: BigData, Database admin.
-    - name: English course
-    - name: Cryptography
-    - name: Cloud (AWS)
-    - name: Project management
-    - name: LAN and internet infrastructure
-    - name: Internet Of Things (IOT)
-    - name: Network and telecommunication
-    - name: Securing Networks (OpenSSL, OpenVPN)
-    - name: Virtualization
-    - name: High availability
-    - name: Distributed computing infrastuctures
-    - name: Convergence and mobile devices
-    - name: Professional markets and skills assessment
+  - name: Computer Science degree
+    icon: fa-university
+    timeframe: 2017-2020
+    institution:
+      name: University of Picardy Jules Verne
+      url: "https://www.u-picardie.fr/"
+    takenCourses: #(optional)
+      # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+      showGrades: false
+      collapseAfter: 3
+      courses:
+        - name: Linear algebra
+        - name: Graph based Algorithms
+        - name: English course
+        - name: Web development
+        - name: Introduction to Cryptography and Distributed Computing
+        - name: Mathematics and statistics
+        - name: Oriented Object Programming (OOP)
+        - name: System based programming
+        - name: Operating System (Linux learning)
 
-- name: Computer Science degree
-  icon: fa-university
-  timeframe: 2017-2020
-  institution:
-    name: University of Picardy Jules Verne
-    url: "https://www.u-picardie.fr/"
-  takenCourses: #(optional)
-    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
-    showGrades: false
-    collapseAfter: 3
-    courses:
-    - name: Linear algebra
-    - name: Graph based Algorithms
-    - name: English course
-    - name: Web development
-    - name: Introduction to Cryptography and Distributed Computing
-    - name: Mathematics and statistics
-    - name: Oriented Object Programming (OOP)
-    - name: System based programming
-    - name: Operating System (Linux learning)
+  - name: First year, companies management
+    icon: fa-university
+    timeframe: 2016-2017
+    institution:
+      name: Université de Picardie Jules Verne
+      url: "https://www.u-picardie.fr/"
+    takenCourses: #(optional)
+      # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+      showGrades: false
+      collapseAfter: 3
+      courses:
+        - name: Tax course
+        - name: Accounting course
+        - name: Psychology course
+        - name: Math course
+        - name: Law course
+        - name: English course
 
-- name: First year, companies management
-  icon: fa-university
-  timeframe: 2016-2017
-  institution:
-    name: Université de Picardie Jules Verne
-    url: "https://www.u-picardie.fr/"
-  takenCourses: #(optional)
-    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
-    showGrades: false
-    collapseAfter: 3
-    courses:
-    - name: Tax course
-    - name: Accounting course
-    - name: Psychology course
-    - name: Math course
-    - name: Law course
-    - name: English course
-
-- name: Scientific Baccalaureate (Engineering Science)
-  icon: fa-school
-  timeframe: 2016
-  institution:
-    name: Lycée Paul Langevin
-    url: https://paul-langevin-beauvais.ac-amiens.fr/
+  - name: Scientific A Level (Engineering Science)
+    icon: fa-school
+    timeframe: 2016
+    institution:
+      name: Lycée Paul Langevin
+      url: https://paul-langevin-beauvais.ac-amiens.fr/
