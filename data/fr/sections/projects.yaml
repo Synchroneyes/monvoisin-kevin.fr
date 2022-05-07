@@ -84,6 +84,7 @@ projects:
   - name: Infrastructure sur AWS
     logo: /images/sections/projects/aws.png
     role: Auteur
+    repo: https://github.com/Synchroneyes/aws-infrastructure-terraform
     timeline: "Septembre 2021 - Mars 2022"
     summary: Mise en place d'une infrastructure sur le cloud d'Amazon Web Service. Prise en main du cloud et de l'outil Terraform. Notre infrastructure était composée d'un serveur web. Cette infrastructure est scalable et contient des règles d'autoscaling afin de la rendre la plus disponible possible.
     tags: ["universitaire", "cloud", "aws", "terraform"]
