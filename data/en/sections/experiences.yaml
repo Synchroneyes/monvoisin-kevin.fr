@@ -10,6 +10,17 @@ section:
 
 # Your experiences
 experiences:
+
+- company:
+    name: Storm Reply
+    url: "https://reply.com"
+    location: "Paris (75), France"
+    overwiew: "STORM REPLY is the company in the Reply group specialized in the design and implementation of innovative Cloud-based solutions and services."
+  positions:
+    designation: AWS Cloud Engineer
+    start: October 2022
+    
+    
 - company:
     name: Air France Industries
     url: "https://www.afiklmem.com/fr"
@@ -19,6 +30,7 @@ experiences:
   positions:
   - designation: Decision-making engineer apprentice
     start: December 2020
+    end: September 2022
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
