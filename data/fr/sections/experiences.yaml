@@ -20,6 +20,8 @@ experiences:
   positions:
     designation: Ingénieur Cloud AWS
     start: Octobre 2022
+    responsibilities:
+    - ...
     
 - company:
     name: Air France Industries
