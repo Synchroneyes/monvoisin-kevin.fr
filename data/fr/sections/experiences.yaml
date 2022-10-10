@@ -10,6 +10,17 @@ section:
 
 # Your experiences
 experiences:
+
+
+- company:
+    name: Storm Reply
+    url: "https://reply.com"
+    location: "Paris (75), France"
+    overwiew: "STORM REPLY est une entreprise du groupe Reply spécialisé dans le design et l'implémentation de solutions Cloud et de services."
+  positions:
+    designation: Ingénieur Cloud AWS
+    start: Octobre 2022
+    
 - company:
     name: Air France Industries
     url: "https://www.afiklmem.com/fr"
@@ -19,6 +30,7 @@ experiences:
   positions:
   - designation: Apprenti Ingénieur Décisionnel
     start: Décembre 2020
+    end: Septembre 2022
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
