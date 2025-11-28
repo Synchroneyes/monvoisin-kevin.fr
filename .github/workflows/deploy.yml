@@ -39,6 +39,13 @@ jobs:
           echo "monvoisin-kevin.fr" > dist/CNAME
           touch dist/.nojekyll
 
+      - name: List dist contents
+        run: |
+          echo "Contents of dist directory:"
+          ls -laR dist/
+          echo "Contents of dist/index.html:"
+          cat dist/index.html
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
