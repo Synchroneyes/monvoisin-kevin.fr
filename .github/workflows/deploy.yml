@@ -34,8 +34,10 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Add CNAME
-        run: echo "monvoisin-kevin.fr" > dist/CNAME
+      - name: Add CNAME and .nojekyll
+        run: |
+          echo "monvoisin-kevin.fr" > dist/CNAME
+          touch dist/.nojekyll
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
