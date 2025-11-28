@@ -6,5 +6,5 @@ url: https://github.com/Synchroneyes
 
 ## LinkedIn
 icon: linkedin
-url: https://linkedin.com/in/kevinmonvoisin
+url: https://linkedin.com/in/kevin-monvoisin
 

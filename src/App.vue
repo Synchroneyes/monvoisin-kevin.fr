@@ -281,7 +281,7 @@ const loadSocials = async () => {
     console.error('Error loading socials:', error)
     socials.value = [
       { name: 'GitHub', icon: Github, url: 'https://github.com/kevinmonvoisin' },
-      { name: 'LinkedIn', icon: Linkedin, url: 'https://linkedin.com/in/kevinmonvoisin' },
+      { name: 'LinkedIn', icon: Linkedin, url: 'https://linkedin.com/in/kevin-monvoisin' },
       { name: 'Email', icon: Mail, url: 'mailto:kevin@monvoisin-kevin.fr' }
     ]
   }
@@ -537,7 +537,7 @@ onUnmounted(() => {
           Je serais ravi de discuter avec vous.
         </p>
         <a 
-          href="https://linkedin.com/in/kevinmonvoisin"
+          href="https://linkedin.com/in/kevin-monvoisin"
           target="_blank"
           rel="noopener noreferrer"
           class="inline-flex items-center gap-2 bg-gradient-to-r from-pink-500 via-orange-500 to-red-500 text-white px-8 py-4 rounded-lg hover:from-pink-600 hover:via-orange-600 hover:to-red-600 transition-all font-medium text-lg shadow-lg shadow-orange-500/20"
