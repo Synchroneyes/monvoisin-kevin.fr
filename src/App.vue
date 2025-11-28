@@ -115,12 +115,12 @@ const loadSkills = async () => {
     
     skills.value = sections.map(section => {
       const lines = section.trim().split('\n')
-      const firstLine = lines[0].trim()
+      const firstLine = lines[0]?.trim() || ''
       
       // Parse title and optional icon: ## Cloud [icon:cloud]
       const iconMatch = firstLine.match(/\[icon:(.*?)\]/)
       const name = firstLine.replace(/\[icon:.*?\]/, '').trim()
-      const iconName = iconMatch ? iconMatch[1].toLowerCase() : null
+      const iconName = iconMatch?.[1]?.toLowerCase() || null
       
       const content = lines.slice(1).filter(l => l.trim()).join('\n')
       
