@@ -10,6 +10,8 @@ description: - Refactorisation de la landing zone existante
 
 - Mise en place d'une solution de création de compte AWS de manière automatique avec une intégration ServiceNow
 
+- Build et déploiement de la nouvelle Media Supply Chain (MSC) et accompagnement sur des opérations de RUN.
+
 - Refactorisation des modules Terraform
 
 - Mise en place de tests automatique de module Terraform
